@@ -42,10 +42,9 @@ module.exports.pitch = function (remainingRequest) {
 	var code = [
 		"// add the styles to the DOM",
 		"var add = require(" + addStylesShadowPath + ").default",
-		`var shadows = document.querySelectorAll("[data-mojito-render='${pkg.name}@${pkg.version}']")`,
-		`console.log("xxxx", shadows)`,
-		"var update = add(" + id + ", content, shadows);",
+		`var update = add(${id}, content, "${pkg.name}", "${pkg.version}");`,
 	];
+
 	if (!isProduction) {
 		code = code.concat([
 			"// Hot Module Replacement",
