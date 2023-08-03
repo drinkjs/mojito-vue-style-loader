@@ -1,11 +1,11 @@
 {
-  "name": "mojito-vue-style-loader",
-  "version": "1.0.4",
-  "author": "Tim ou",
-  "description": "Vue.js mojito component style loader",
+  "name": "shadow-style-loader",
+  "version": "1.0.1",
+  "author": "TimOu",
+  "description": "Webpack ShadowDOM style loader",
   "repository": {
     "type": "git",
-    "url": "git@github.com/drinkjs/mojito-vue-style-loader"
+    "url": "git@github.com/drinkjs/shadow-style-loader"
   },
   "scripts": {
     "test": "jest",
