@@ -29,8 +29,8 @@
     document.addEventListener("custom style loader event", (e)=>{
       if(e.detail.flag === "app1"){
         const shadowRoot = document.getElementById("add style element").attachShadow({ mode: "open" });
-        addStyles(e.detail.style, shadowRoot);
-        
+        addStyles(e.detail.styles, shadowRoot);
+
       }else if(e.detail.flag === "app2"){
         ...
       }
