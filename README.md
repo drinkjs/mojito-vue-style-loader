@@ -1,5 +1,10 @@
 # shadow-style-loader
 
+- **Install**
+  ``` 
+  npm i shadow-style-loader
+  ```
+
 ## Options
 
 - **Webpack** (5.0+):
